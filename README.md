@@ -42,4 +42,4 @@
 </p>
 
 - 💬 Ask me about **Data Engineering**
-- 📫 How to reach me **(mailto:susarlasruthi1003@gmail.com)**
+- 📫 How to reach me **(mailto:laxmisruthisusarla@gmail.com)**
