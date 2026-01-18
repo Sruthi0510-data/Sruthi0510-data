@@ -1,6 +1,6 @@
 <!-- Header Section -->
 <h1 align="center"><font face="Arial">Hi 👋, I'm Sruthi
-<h3 align="center"><font face="Arial"><a href="https://www.linkedin.com/in/sruthisusarla/" target="_blank" rel="noreferrer">Sruthi</a> is a passionate Data Engineer working on Data Engineering and cloud for 2+ years now along with a Master's degree in Data-Engineering.
+<h3 align="center"><font face="Arial"><a href="https://www.linkedin.com/in/sruthisusarla/" target="_blank" rel="noreferrer">Sruthi</a> is a passionate Data Engineer working on Data Engineering and cloud for 5+ years now along with a Master's degree in Data-Engineering.
 
 
 <!-- GIF -->
