@@ -5,7 +5,6 @@
 <br/>
 
 <img src="https://img.shields.io/badge/experience-5%2B%20years-2F81F7?style=flat-square" alt="5 plus years" />
-<img src="https://img.shields.io/badge/repositories-7-2F81F7?style=flat-square" alt="7 repositories" />
 <img src="https://img.shields.io/badge/tests-1%2C845-3FB950?style=flat-square" alt="1845 tests" />
 <img src="https://img.shields.io/badge/coverage-100%25%20line%20and%20branch-3FB950?style=flat-square" alt="100 percent line and branch coverage" />
 <img src="https://img.shields.io/badge/decision%20records-31-8957E5?style=flat-square" alt="31 architecture decision records" />
@@ -51,25 +50,10 @@ with that worry.
 
 ---
 
-## 📊 seven repositories, 1,845 tests
-
-| repository | what it measures that the usual tool cannot | the number it leads with | tests |
-| --- | --- | --- | --- |
-| [stream-replay-divergence](https://github.com/Sruthi0510-data/stream-replay-divergence) | what a replay of a stateful streaming job cannot reproduce | **62.0%** of output rows survive reprocessing, and 205 sessions become 12 | 402 |
-| [merge-order-sensitivity](https://github.com/Sruthi0510-data/merge-order-sensitivity) | which CDC merge outcomes the delivery model can actually reach | **8.0%** of keys are order dependent, and a permutation harness finds 18 of the 32 | 359 |
-| [rag-failure-attribution](https://github.com/Sruthi0510-data/rag-failure-attribution) | whether a RAG miss belongs to the retriever or to the chunker | **81.1%** of the misses are severance, not retrieval | 276 |
-| [dq-detectability-audit](https://github.com/Sruthi0510-data/dq-detectability-audit) | what a data quality suite can detect at the sample size it runs on | **15 of 40** rules cannot fail, and 13 of those block a release | 251 |
-| [llm-label-churn](https://github.com/Sruthi0510-data/llm-label-churn) | what a prompt change did, which an accuracy delta cannot say | **2,248** labels moved for a net gain of 13 items | 210 |
-| [sql-dialect-drift](https://github.com/Sruthi0510-data/sql-dialect-drift) | whether transpiled SQL means the same thing, not just parses | **10 of 11** ordinary queries mean different things on six warehouses | 191 |
-| [small-files-read-amplification](https://github.com/Sruthi0510-data/small-files-read-amplification) | the per-file cost a query plan is structurally blind to | **86.2%** of the scan is the half no plan reports | 156 |
-
-Every number above is produced by code that ran, written into `docs/metrics.json`,
-and matched against the sentence quoting it by a checker that fails the build
-when the two disagree.
-
----
 
 ## 🛠 what I work with
+
+<div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -84,6 +68,8 @@ when the two disagree.
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+
+</div>
 
 ---
 
@@ -107,37 +93,26 @@ here is the honest version.
 
 ---
 
-## 🧪 how all seven are built
-
-- **The uncomfortable number is the headline.** The figure at the top of each
-  README is the one that makes the design look worst, not the one that sells it.
-- **Nothing is published that a machine did not re-measure.** `tools/collect_metrics.py`
-  re-runs every experiment, `tools/check_numbers.py` fails the build when a
-  document quotes a figure the code no longer produces, and CI regenerates the
-  tables and diagrams and fails if a committed file changes.
-- **Offline and deterministic.** No credentials, no cloud account, no network
-  call at runtime. `pip install -e ".[dev]" && make verify` on a laptop with
-  the wifi off, on Python 3.11, 3.12 and 3.13.
-- **The bugs the measurement found are in the README.** Each repository has a
-  section for the times the instrument was wrong, including a build that could
-  not regenerate itself and a figure that moved between runs because of hash
-  randomisation.
-
----
 
 ## 🎓 credentials
 
+<div align="center">
+
 ![AWS Certified Data Engineer Associate](https://img.shields.io/badge/AWS%20Certified-Data%20Engineer%20Associate-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![MS Data Engineering](https://img.shields.io/badge/MS%20Data%20Engineering-University%20of%20North%20Texas-00853E?style=for-the-badge&logoColor=white)
+
+</div>
 
 ---
 
 ## 📬 connect
 
+<div align="center">
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sruthisusarla/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:laxmisusarla@mycvcareer.com)
 
-<div align="center">
+---
 
 <br/>
 
